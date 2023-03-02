@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration-form</title>
+        <style>
+            body{
+                background: url(bgImgForm.jpg);
+            }
+            section{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            .Form{
+               padding: 100px;
+                width: 300px;
+                height: 400px;
+                background: antiquewhite;
+                margin-left: 60px;
+                margin-top: 100px;
+                border-radius: 10px;
+                border: 4px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <section>
+                
+                <div class="Form"> Name : <input type="text" placeholder="Enter Your name"
+                        required> <br><br>
+                    Last Name : <input type="text" placeholder="Enter Your Last name
+                        " required><br><br>
+                    Gender &nbsp; : Male<input type="radio" name="Gender"
+                        required>
+                    Female<input
+                        type="radio" name="Gender" required> <br><br>
+
+                    Phone No. : <input type="number" placeholder="Enter Your Phone
+                        No." required><br><br>
+                    Age :<input type="text" placeholder="Enter Your Age"
+                        required><br><br>
+                    Address : <input type="text" placeholder="Enter Your Address"
+                        required><br><br>
+                    PinCode : <input type="number" placeholder="Zip/Pin"
+                        required>
+                    <br><br>
+                    Mail-Id : <input type="email" placeholder="Enter Your Mail Id"
+                        required><br><br>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </section>
+
+        </form>
+    </body>
+</html>
